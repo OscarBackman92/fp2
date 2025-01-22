@@ -1,11 +1,11 @@
 import Layout from '../components/Layout';
 
-export default function HomePage() {
+const HomePage = () => {
   return (
     <Layout>
-      <div className="flex justify-center items-center h-screen">
-        <h1 className="text-4xl font-bold text-blue-600">Welcome to Your Workout App!</h1>
-      </div>
+      <h1>Welcome to Your Workout App!</h1>
     </Layout>
   );
-}
+};
+
+export default HomePage;
